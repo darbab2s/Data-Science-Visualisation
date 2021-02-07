@@ -2,12 +2,11 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
+  - python
   - numpy
-  - vaex
-  - vaex.jupyter
-  - matplotlib
-  - pylab
-  - pandas
-  - ipyvolume
-  - bokeh
-  - bqplot
+  - pip
+  - pip:
+    - vaex
+    - bqplot
+    - pandas
+    - matplotlib
